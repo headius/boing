@@ -2,4 +2,4 @@
 
 require 'boing'
 
-Boing.new(ARGV).run
+Boing::Runner.new(ARGV).run
