@@ -1,9 +1,9 @@
 # Boing
 
 Boing is a preloader-aware command runner for JRuby. It builds off the preload
-capabilities of Drip and adds per-command smarts for specific commands.
+capabilities of [Drip](https://github.com/flatland/drip) and adds per-command smarts for specific commands.
 
-Boing is being created in response to the Spring preloader being supported by
+Boing is being created in response to the [Spring](https://github.com/jonleighton/spring) preloader being supported by
 Rails 4.1. Spring preloads Ruby/Rails instances in the background in much the
 same way as JRuby can do with Drip, but does it using forking. Because JRuby
 already has Drip, Boing should only need to know how to safely preload and
