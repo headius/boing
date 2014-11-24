@@ -20,7 +20,7 @@ module Boing
       end
 
       # check for known "special" commands
-      if @args[0] == 'rails' && INPROC_RAILS_COMMANDS.include?(@args[1])
+      if @args[0] == 'rails' && INPROC_RAILS_CMDS.include?(@args[1])
 	# running a `rails` command
 
 	# best value comes from prebooting rails, so warn if not prebooted
